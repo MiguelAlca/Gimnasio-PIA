@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff; /* fondo blanco */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff176; /* amarillo claro */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .header {
+    text-align: center;
+    background: #ffeb3b; /* un tono más fuerte de amarillo */
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .form-section {
+    background: #fff59d; /* amarillo pastel */
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    background: #444; /* mantener contraste para campos */
+    color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  .add-btn {
+    background: #b8ff9c; /* verde claro */
+    color: black;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    align-self: flex-end;
+    cursor: pointer;
+  }
+  
+  .branch-list {
+    margin-top: 20px;
+  }
+  
+  .branch-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fffde7; /* fondo de cada fila en tono amarillo claro */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .branch-name,
+  .branch-address {
+    background: #444;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 40%;
+    text-align: center;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 18px;
+  }
+  
+  .edit-btn {
+    background: #b6e4e0; /* celeste */
+  }
+  
+  .delete-btn {
+    background: #ff9d9d; /* rojo claro */
+    color: red;
+  }
+  

@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+  
+  h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  #inputAviso {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    width: 100%;
+  }
+  
+  #btnAgregar {
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #btnAgregar:hover {
+    background-color: #138496;
+  }
+  
+  .branch-item,
+  .aviso-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .aviso-item span {
+    flex-grow: 1;
+    padding-right: 15px;
+  }
+  
+  .actions button {
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-light {
+    background-color: #e0e0e0;
+    color: #000;
+  }
+  
+  .btn-danger {
+    background-color: #ff4d4d;
+    color: #fff;
+  }
+  
+  .btn-danger:hover {
+    background-color: #e60000;
+  }
+  
